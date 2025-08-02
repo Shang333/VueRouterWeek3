@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <header class="header">這裡是header</header>
+        <header class="header g-4">這裡是header</header>
         <div class="row">
             <div class="col-4" v-for="i in 10" :key="i">
                 <div class="card">
@@ -17,10 +17,13 @@
     </div>
 </template>
 
+<style>
+.header{
+    height: 200px;
+    background-color: lightcoral;
+}
+</style>
+
 <script>
 
 </script>
-
-<style>
-
-</style>
